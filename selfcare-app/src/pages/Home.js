@@ -98,8 +98,9 @@ const Home = () => {
 
             <Line />
 
-            <GridProducts data-aos="fade-right">
 
+            <GridProducts data-aos="fade-right">
+           
                 <Products>
                     {list}
                 </Products>
