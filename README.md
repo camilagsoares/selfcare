@@ -12,7 +12,8 @@ O desafio SelfCare foi criado por <a href="https://github.com/thaysagomes/">Thay
 
 ## 💻 Preview
 
-![preview](https://user-images.githubusercontent.com/85360804/141332381-b1a758ed-dbdb-44d5-bb68-eb26b389519f.png)
+![print](https://user-images.githubusercontent.com/85360804/147832657-55bf0b13-9493-443d-a62a-b38a548b690d.png)
+
 
 ## 🛠 Tecnologias e ferramentas utilizadas
 
