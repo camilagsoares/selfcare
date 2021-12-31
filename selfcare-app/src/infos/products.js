@@ -22,27 +22,27 @@
       },
       {
         "title": "Gabrielle Chanel ",
-        "price": "R$ 1.150,00",
+        "price": "$ 1.150,00",
         "image": "https://i.postimg.cc/66P2shtQ/olena-sergienko-GOVTETev-Rm8-unsplash.jpg"
       },
       {
         "title": "Ginger Honey Body Balm",
-        "price": "R$243,56",
+        "price": "$243,56",
         "image": "https://i.postimg.cc/HsQyQy1s/pharma-hemp-complex-t-Azd-Kbl-Ainw-unsplash.jpg"
       },
       {
         "title": "Ex Prunis Antioxidant Phaedra",
-        "price": "R$243,56",
+        "price": "$243,56",
         "image": "https://i.postimg.cc/Hkvs5Ynk/phaedra-botanicals-u-FAHr-KYk-TVI-unsplash.jpg"
       },
       {
         "title": "Bath Bombs Pharma Hemp",
-        "price": "R$279,00",
+        "price": "$279,00",
         "image": "https://i.postimg.cc/MT2wbvSq/pharma-hemp-complex-y-VAXSK6z-FIM-unsplash.jpg"
       },
       {
         "title": "Anti-aging Eye Craem Annmarie",
-        "price": "R$333,06",
+        "price": "$333,06",
         "image": "https://i.postimg.cc/5Nc4qKf8/chandra-oh-y5h-Rv6-UNKMg-unsplash.jpg"
       }
     ]
