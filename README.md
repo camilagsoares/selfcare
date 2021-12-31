@@ -1,5 +1,5 @@
 <h1 align="center">
- 👟  <br> selfcare  </h1>
+ 🛍  <br> selfcare  </h1>
  
 
 <p align="center">
@@ -7,13 +7,7 @@
 </p>
 
 ## Sobre o desafio:
-O desafio Jordan Shoes foi criado por <a href="https://github.com/iuricode">Iuri Code</a> para participantes da comunidade Codelândia no Discord. O objetivo do desafio é reproduzir o layout com as tecnologias desejadas.
-
-## Sobre o projeto:
-Durante o projeto,foi utilizado: 
-* Grid Layout
-* TypeWriter
-* Media Queries
+O desafio SelfCare foi criado por <a href="https://github.com/thaysagomes/">Thaysa Gomes</a> através do site <a href="https://www.devchallenge.com.br/">DevChallenge</a>. O objetivo do desafio é reproduzir o layout com as tecnologias desejadas.
 
 
 ## 💻 Preview
@@ -24,7 +18,7 @@ Durante o projeto,foi utilizado:
 
 * React.js
 * Styled-components
-* Visual Studio Code
+* Lib Animated Styled Components
 * Lib Animate on Scroll (AOS)
 
 <br>
