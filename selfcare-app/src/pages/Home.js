@@ -17,7 +17,10 @@ import 'aos/dist/aos.css'
 
 const Home = () => {
 
-    AOS.init()
+    AOS.init({
+        delay: 4,
+        debounceDelay: 50
+    })
 
     const list = productsList.map((prod) => {
         return (
@@ -99,7 +102,8 @@ const Home = () => {
             <Line />
 
 
-            <GridProducts data-aos="fade-right">
+            <GridProducts data-aos="fade-right"
+            >
            
                 <Products>
                     {list}
