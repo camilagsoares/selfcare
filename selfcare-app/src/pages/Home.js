@@ -2,10 +2,6 @@ import React from 'react'
 import banner from '../assets/banner.png'
 import { Banner, ButtonsHeader } from '../styles/styled'
 import { BandWhite } from '../styles/styled'
-import { BsFillStarFill } from 'react-icons/bs'
-import { BiSearch } from 'react-icons/bi'
-import { BsPersonFill } from 'react-icons/bs'
-import { BiCart } from 'react-icons/bi'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { AiOutlineFacebook } from 'react-icons/ai'
 import { productsList } from '../infos/products'
@@ -22,14 +18,10 @@ const Home = () => {
             <div>
             <img src={prod.image} />
             <p>{prod.title}</p>
+          <p className="price">{prod.price}</p>
             </div>
         )
     })
-
-
-    
-
-    
 
 
     return(
@@ -38,33 +30,30 @@ const Home = () => {
            
             <BandWhite>
                 <p> 
-                 <BsFillStarFill 
-                 size={20}
-                 /> 
+                <i class="fas fa-star"/>
+  
                 selfcare
                 </p>
 
+                
                 <ButtonsHeader>
 
                 <button>
-                    <BiSearch 
-                     size={20}
-                     color={"#5CA720"}
-                    />
+                   <i class="fas fa-search"/>
+
+
                 </button>
 
                 <button>
-                    <BsPersonFill 
-                     size={20}
-                     color={"#5CA720"}
-                    />
+                <i class="fas fa-user-alt"/>
+
+
                 </button>
 
                 <button>
-                    <BiCart 
-                     size={20}
-                     color={"#5CA720"}
-                    />
+                <i class="fas fa-shopping-cart"/>
+
+
                 </button>
 
                 </ButtonsHeader>
@@ -86,14 +75,14 @@ const Home = () => {
             </BandNumberProducts>
 
             <Line />
-{/*      
+     
      <GridProducts>
 
      <Products>
          {list}
      </Products>
 
-     </GridProducts> */}
+     </GridProducts>
 
 
         </div>

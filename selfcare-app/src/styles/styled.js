@@ -10,6 +10,12 @@ button{
     right: 3vw;
     border: none;
     background-color: transparent;
+    color: #5CA720;
+    font-size: 13px;
+
+:hover{
+    color: #386D0D;
+}
 }
 
 `
@@ -20,6 +26,7 @@ display: flex;
 justify-content: space-between;
 height: 80px;
 
+
 p{
     font-family: 'Cabin';
     font-size: 26px;
@@ -27,6 +34,8 @@ p{
     position: relative;
     top: 2vw;
     left: 4vw;
+    
+
 }
 
 @media screen and (max-width: 600px){
@@ -48,23 +57,7 @@ img{
 
 `
 
-export const GridProducts = styled.div`
-width: 900px;
-display: grid;
-grid-template-columns: repeat(4,1fr);
 
-`
-
-export const Products = styled.div`
-/* display: flex;
-align-items: center;
-justify-content: center; */
-
-img{
-    width: 60%;
-}
-
-`
 
 export const BandNumberProducts = styled.div`
 display: flex;
@@ -110,10 +103,54 @@ background-color: #DFD9D9;
 `
 
 
+export const GridProducts = styled.div`
+position: relative;
+top: 2vw;
+display: flex;
+align-items: center;
+justify-content: center;
 
+/* @media screen and (max-width: 600px){
+    display: flex;
+    flex-wrap: wrap;
+} */
+`
+
+export const Products = styled.div`
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 140px;
+grid-row: 13px;
+grid-auto-rows: 400px;
+img{
+    width: 320px;
+    height: 370px;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Lato';
+    font-weight: 500;
+    /* font-size: 22px; */
+    margin: 8px;
+    &.price{
+        color: #5CA720;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+`
 
 export const Footer = styled.div`
 height: 348px;
 
 `
+
 
